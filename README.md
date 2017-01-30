@@ -16,8 +16,23 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 $ brew tap caskroom/cask
 ```
 
+## Homebrew Cask で別versionをinstall できるようにする
 
-## 下記をbrew cask で install 
+[homebrew-cask-versions](https://github.com/caskroom/homebrew-versions)
+
+```
+$ brew tap caskroom/versions
+```
+
+## Homebrew パッケージ情報の更新
+
+Homebrew-cask の パッケージ情報も更新される
+
+```
+$ brew update
+```
+
+## 下記をbrew cask で install
 
 ```
 $ brew cask install atom
@@ -26,6 +41,6 @@ $ brew cask install sourcetree
 $ brew cask install sequel-pro
 $ brew cask install virtualbox
 $ brew cask install vagrant
-$ brew cask install vagrant-manager
+$ brew cask install docker
 $ brew cask install rubymine
 ```
