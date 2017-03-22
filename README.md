@@ -50,6 +50,7 @@ $ brew cask install sequel-pro
 $ brew cask install virtualbox
 $ brew cask install vagrant
 $ brew cask install docker
+$ brew cask install intellij-idea
 $ brew cask install rubymine
 ```
 
