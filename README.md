@@ -51,3 +51,7 @@ $ brew cask install vagrant
 $ brew cask install docker
 $ brew cask install rubymine
 ```
+
+# Homebrew で 配布されていないものについて
+
+[SimpleDiagrams](http://www.simplediagrams.com/)
