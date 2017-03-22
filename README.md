@@ -32,9 +32,16 @@ Homebrew-cask の パッケージ情報も更新される
 $ brew update
 ```
 
+## 下記をbrew で install
+
+```
+$ brew install kotlin
+```
+
 ## 下記をbrew cask で install
 
 ```
+$ brew cask install iterm2
 $ brew cask install atom
 $ brew cask install google-chrome
 $ brew cask install sourcetree
