@@ -44,6 +44,7 @@ $ brew install kotlin
 $ brew cask install iterm2
 $ brew cask install atom
 $ brew cask install google-chrome
+$ brew cask install java
 $ brew cask install sourcetree
 $ brew cask install sequel-pro
 $ brew cask install virtualbox
