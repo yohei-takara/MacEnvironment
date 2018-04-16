@@ -57,3 +57,25 @@ $ brew cask install rubymine
 # Homebrew で 配布されていないものについて
 
 [SimpleDiagrams](http://www.simplediagrams.com/)
+
+
+# ssh 
+
+鍵作成
+`-f` optionで、生成する鍵を任意の名前で作成可能
+```
+$ ssh-keygen -t rsa -f <path>
+```
+
+_ssh config_
+```
+# --- GitHub setting ---
+Host github.com
+  HostName github.com
+  User <user name>
+  PreferredAuthentications publickey
+  IdentityFile <GitHub に登録している 公開鍵のペアとなる秘密鍵の path>
+  UseKeyChain yes
+  AddKeysToAgent yes
+# ----------------------------
+```
