@@ -35,6 +35,9 @@ $ brew update
 ## 下記をbrew で install
 
 ```
+$ brew install zsh
+$ brew install zplug
+
 $ brew install kotlin
 ```
 
@@ -44,12 +47,16 @@ $ brew install kotlin
 $ brew cask install iterm2
 $ brew cask install atom
 $ brew cask install google-chrome
-$ brew cask install java
-$ brew cask install sourcetree
-$ brew cask install sequel-pro
+$ brew cask install clipy
+
 $ brew cask install virtualbox
 $ brew cask install vagrant
 $ brew cask install docker
+$ brew cask install docker-edge
+
+$ brew cask install sourcetree
+$ brew cask install sequel-pro
+$ brew cask install java
 $ brew cask install intellij-idea
 $ brew cask install rubymine
 ```
