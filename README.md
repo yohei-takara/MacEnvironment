@@ -85,4 +85,15 @@ Host github.com
   UseKeyChain yes
   AddKeysToAgent yes
 # ----------------------------
+
+# --- bitbucket setting ---
+Host bitbucket.org
+  HostName bitbucket.org
+  IdentityFile <bitbucket に登録している 公開鍵のペアとなる秘密鍵の path>
+  User <User name>
+  Port 22
+  TCPKeepAlive yes
+  IdentitiesOnly yes
+# ----------------------------
+  
 ```
