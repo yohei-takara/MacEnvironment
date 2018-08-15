@@ -101,3 +101,5 @@ Host bitbucket.org
 _github接続確認_
 `$ ssh -T git@github.com`
 
+_bitbucket ssh 接続確認_
+`$ ssh -T bitbucket.org`
