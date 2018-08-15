@@ -97,3 +97,7 @@ Host bitbucket.org
 # ----------------------------
   
 ```
+
+_github接続確認_
+`$ ssh -T git@github.com`
+
