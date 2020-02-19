@@ -8,9 +8,10 @@
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-## Homebrew-cask の install
+~## Homebrew-cask の install~
 
-[Homebrew Cask](https://caskroom.github.io/)
+~[Homebrew Cask](https://caskroom.github.io/)~
+
 
 ```
 $ brew tap caskroom/cask
